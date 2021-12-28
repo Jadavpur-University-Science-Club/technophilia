@@ -14,7 +14,7 @@ import { homeObjOne } from '../components/2. InfoSection/Data';
 import Sponsors from '../components/6. Sponsors';
 import Judges from '../components/7. Judges';
 import FAQs from '../components/8. FAQs';
-import Team from '../components/9. Team';
+// import Team from '../components/9. Team';
 
 const Home = () => {
 
