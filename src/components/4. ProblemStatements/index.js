@@ -45,6 +45,7 @@ const ProblemStatements = () => {
             <Container id="problem-statements">
                 <HeadingH1>Tracks</HeadingH1>
                 < ProblemWrapper>
+                    
                     <ThemeProvider theme={theme}>
                         <Row className="justify-content-md-center" lg={4} md={3} s={12}>
                             <Col

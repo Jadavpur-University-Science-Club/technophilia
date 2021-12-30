@@ -102,7 +102,7 @@ export default function CustomizedTimeline() {
                         </Paper>
                     </TimelineContent>
                 </TimelineItem>
-                <TimelineItem>
+                {/* <TimelineItem>
                     <TimelineSeparator>
                         <TimelineDot />
                     </TimelineSeparator>
@@ -114,7 +114,7 @@ export default function CustomizedTimeline() {
                             <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Typography>
                         </Paper>
                     </TimelineContent>
-                </TimelineItem>
+                </TimelineItem> */}
             </Timeline>
         </ThemeProvider>
     );
