@@ -14,7 +14,7 @@ const Footer = () => {
                         <SocialMediaWrap>
                             <SocialLogo to="/" onClick={scroll.scrollToTop}><Logo size={40}/>&nbsp;&nbsp; <span style={{color:"white"}}> Techno</span><span style={{color: "#0692ce"}}>philia</span></SocialLogo>
                            
-                            <WebsiteRights>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</WebsiteRights>
+                            <WebsiteRights>#Dare_to_Dream.</WebsiteRights>
 
                             <SocialIcons>
                                 <SocialIconLink href="/" target="_blank" aria-label="Facebook">

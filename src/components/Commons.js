@@ -26,9 +26,9 @@ export const Wrapper = styled.div`
     grid-gap: 16px;
     padding: 0 50px;
 
-    /* width: 85vw; */
+    width: 85vw;
     gap: 25px;
-    /* padding: 8px; */
+    padding: 8px;
 
     @media screen and (max-width: 1000px) {
         grid-template-columns: 1fr 1fr;
