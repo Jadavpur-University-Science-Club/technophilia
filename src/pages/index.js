@@ -30,8 +30,8 @@ const Home = () => {
             <Navbar toggle={toggle} />
             <HeroSection />
             <InfoSection {...homeObjOne} />
-            <Schedule />
             <ProblemStatements />
+            <Schedule />
             <Prizes />
             <Sponsors />
             <Judges />

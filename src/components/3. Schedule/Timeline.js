@@ -82,7 +82,7 @@ export default function CustomizedTimeline() {
                     <TimelineContent>
                         <Paper elevation={3} className={classes.paper}>
                             <Typography variant="h6" component="h1">
-                            Team Confirmation Rollout & RSVP Start
+                                Team Confirmation Rollout & RSVP Start
                             </Typography>
                             <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Typography>
                         </Paper>
@@ -102,19 +102,19 @@ export default function CustomizedTimeline() {
                         </Paper>
                     </TimelineContent>
                 </TimelineItem>
-                {/* <TimelineItem>
+                <TimelineItem>
                     <TimelineSeparator>
                         <TimelineDot />
                     </TimelineSeparator>
                     <TimelineContent>
                         <Paper elevation={3} className={classes.paper}>
                             <Typography variant="h6" component="h1">
-                            Check In & Hackathon Starts
+                                Check In & Hackathon Starts
                             </Typography>
                             <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Typography>
                         </Paper>
                     </TimelineContent>
-                </TimelineItem> */}
+                </TimelineItem>
             </Timeline>
         </ThemeProvider>
     );

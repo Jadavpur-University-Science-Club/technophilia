@@ -1,11 +1,17 @@
 
 import styled from "styled-components"
 
-export const ProblemWrapper = styled.div`
-    width: 80%;
+export const Container = styled.div`
+height: 1000px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+
 
     @media screen and (max-width: 768px) {
-        margin-top: 50px;
-        padding: 10px 10px;
+        width: 100%;
+        padding: 0 10px;
+        height : auto
     }
 `

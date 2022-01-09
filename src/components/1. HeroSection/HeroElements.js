@@ -8,7 +8,7 @@ background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/s
     justify-content: center;
     align-items: center;
     padding: 0 30px;
-    height: 90vh;
+    height: 100vh;
     position: relative;
     z-index: 1;
 
