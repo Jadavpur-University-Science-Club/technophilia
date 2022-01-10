@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, HeadingH1} from "../Commons";
-import {Card} from "../Card/Card.component";
+// import {Card} from "../Card/Card.component";
 //import CardContent from '@material-ui/core/CardContent';
 //import CardActions from '@material-ui/core/CardActions';
 import { Row, Col } from "react-grid-system";
@@ -32,7 +32,7 @@ const Sponsors = () => {
                         </Row>
                         <Row lg={12}>
                             <Col lg = {6} sm ={12} style = {{paddingLeft:"5%",paddingBottom:"12%"}}>
-                                <a href = "https://devfolio.co/home/" target='_blank' >
+                                <a href = "https://devfolio.co/home/" target='_blank' rel="noreferrer" >
                                     <img className = "logo-large" src = {require("../../images/sponsors/devfolio1.png").default} alt =" "  width ="90%" left= "20%" />
 
                                 </a>
@@ -40,7 +40,7 @@ const Sponsors = () => {
                             </Col>
                             
                             <Col lg = {6} sm ={12} style = {{paddingLeft:"5%", paddingBottom:"10%"}}>
-                                <a href = "https://polygon.technology/" target='_blank' >
+                                <a href = "https://polygon.technology/" target='_blank' rel="noreferrer" >
                                     <img className = "logo-large" src = {require("../../images/sponsors/poly1.png").default} alt =" "  width ="90%" left= "20%" />
 
                                 </a>
@@ -58,7 +58,7 @@ const Sponsors = () => {
                         </Row>
                         <Row lg={12}>
                             <Col lg = {6} sm ={12} style = {{paddingLeft:"5%",paddingBottom:"12%"}}>
-                                <a href = "https://tezos.com/" target='_blank' >
+                                <a href = "https://tezos.com/" target='_blank' rel="noreferrer" >
                                     <img className = "logo-large" src = {require("../../images/sponsors/tezos.png").default} alt =" "  width ="90%" left= "20%" />
 
                                 </a>
@@ -66,7 +66,7 @@ const Sponsors = () => {
                             </Col>
                             
                             <Col lg = {6} sm ={12} style = {{paddingLeft:"5%", paddingBottom:"10%"}}>
-                                <a href = "https://filecoin.io/" target='_blank' >
+                                <a href = "https://filecoin.io/" target='_blank' rel="noreferrer" >
                                     <img className = "logo-large" src = {require("../../images/sponsors/filecoin1.png").default} alt =" "  width ="90%" left= "20%" />
 
                                 </a>
@@ -84,7 +84,7 @@ const Sponsors = () => {
                         </Row>
                         <Row lg={12}>
                             <Col lg = {6} sm ={12} style = {{paddingLeft:"5%",paddingBottom:"12%"}}>
-                                <a href = "https://www.echo3d.co/" target='_blank' >
+                                <a href = "https://www.echo3d.co/" target='_blank' rel="noreferrer">
                                     <img className = "logo-large" src = {require("../../images/sponsors/echo3d.png").default} alt =" "  width ="90%" left= "20%" />
 
                                 </a>
@@ -92,21 +92,21 @@ const Sponsors = () => {
                             </Col>
                             
                             <Col lg = {6} sm ={12} style = {{paddingLeft:"5%", paddingBottom:"10%"}}>
-                                <a href = "https://www.geeksforgeeks.org/" target='_blank' >
+                                <a href = "https://www.geeksforgeeks.org/" target='_blank' rel="noreferrer" >
                                     <img className = "logo-large" src = {require("../../images/sponsors/gfg-new-logo.png").default} alt =" "  width ="90%" left= "20%" />
 
                                 </a>
                             </Col>
 
                             <Col lg = {6} sm ={12} style = {{paddingLeft:"5%", paddingBottom:"10%"}}>
-                                <a href = "https://www.spartificial.com/" target='_blank' >
+                                <a href = "https://www.spartificial.com/" target='_blank' rel="noreferrer">
                                     <img className = "logo-large" src = {require("../../images/sponsors/spartificial.png").default} alt =" "  width ="90%" left= "20%" />
 
                                 </a>
                             </Col>
 
                             <Col lg = {6} sm ={12} style = {{paddingLeft:"5%", paddingBottom:"10%"}}>
-                                <a href = "https://gen.xyz/" target='_blank' >
+                                <a href = "https://gen.xyz/" target='_blank' rel="noreferrer">
                                     <img className = "logo-large" src = {require("../../images/sponsors/p-.xyz_logo.png").default} alt =" "  width ="90%" left= "20%" />
 
                                 </a>
