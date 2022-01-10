@@ -52,7 +52,7 @@ const ProblemStatements = () => {
                                 paddingBottom: "2vh",
                                 paddingTop: "2vh",
                                 flexDirection: "column",
-                            }}
+                            }} 
                         >
                             <Card className={classes.root} >
                                 <CardContent>
