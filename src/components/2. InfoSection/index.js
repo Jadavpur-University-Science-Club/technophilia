@@ -29,15 +29,14 @@ const InfoSection = ({ id,
                                 <Subtitle darkText={darkText}>{description}</Subtitle>
                                 <BtnWrap>
                                     <Button
-                                        to="/"
+                                        to="home"
                                         smooth={true}
                                         duration={500}
                                         spy={true}
                                         exact="true"
                                         offset={-80}
-                                        primary={primary ? 1 : 0}
-                                        dark={dark ? 1 : 0}
-                                        style={{backgroundColor: "white"}}
+                                        primary={primary ? 0 : 1}
+                                        dark={dark ? 0 : 1}
                                     >{buttonLabel}</Button>
                                 </BtnWrap>
                             </TextWrapper>
