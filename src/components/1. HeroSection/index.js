@@ -30,7 +30,7 @@ const HeroSection = () => {
                     <div
                         id="devfolio-apply-now"
                         className="apply-button"
-                        data-hackathon-slug="test-ieee-jaduniv"
+                        data-hackathon-slug="doubleslash-ieee-jaduniv"
                         data-button-theme="light"
                         style={{ height: "44px", width: "300px", paddingBottom:"10px" }} >
 
