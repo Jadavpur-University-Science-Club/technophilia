@@ -6,28 +6,28 @@ import { FAQWrapper } from './faqwrap';
 const data = {
     rows: [
         {
-            title: "Lorem ipsum dolor sit amet,",
-            content: "Lorem ipsum dolor sit amet, consectetur "
+            title: "WHAT IS A HACKATHON?",            
+            content: "A hackathon is a social coding event where programmers, designers and developers collaborate to solve a real life problem and compete for cash prizes. It’s one part party, one part work-your-butt-off overnight battle against the clock and the competition."
         },
         {
-            title: "Nunc maximus, magna at ultricies elementum",
-            content: "Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam."
+            title: "WHO IS THIS EVENT FOR?",
+            content: "Budding problem solvers who wish to provide a feasible solution to a real life problem."
         },
         {
-            title: "Curabitur laoreet, mauris vel blandit fringilla",
-            content: "Curabitur laoreet, mauris vel blandit fringilla, leo elit rhoncus nunc"
+            title: "WHAT IS THE ELIGIBILITY?",
+            content: "This event is open to students of all universities and colleges. A team of maximum 4 and minimum 2 participants can participate in this event. Teams  can be formed between students of the same or different colleges."
         },
         {
-            title: "What is the package version",
-            content: "v1.0.5"
+            title: "HOW MUCH DOES IT COST?",
+            content: "It is absolutely free of cost for all participants of all teams. Moreover, all teams can use the resources of the sponsor companies."
         },
         {
-            title: "Lorem ipsum dolor sit amet,",
-            content: "Lorem ipsum dolor sit amet, consectetur "
+            title: "WILL THERE BE PRIZES?",
+            content: "Absolutely. Check out our prize page for details."
         },
         {
-            title: "Nunc maximus, magna at ultricies elementum",
-            content: "Nunc maximus, magna at ultricies elementum, risus turpis vulputate quam."
+            title: "HOW WILL THE HACKATHON BE CONDUCTED?",
+            content: "All the rounds will be conducted online."
         }
     ]
 }
@@ -43,12 +43,12 @@ const FAQs = () => {
                     styles={{
                         bgColor: "#121c27",
                         rowTitleColor: "#fff",
-                        rowTitleTextSize: '25px',
+                        rowTitleTextSize: '20px',
                         rowContentColor: "#fff",
                         rowContentTextSize: '20px',
                         rowContentPaddingTop: '10px',
                         rowContentPaddingBottom: '10px',
-                        rowContentPaddingLeft: '50px',
+                        rowContentPaddingLeft: '10px',
                         arrowColor: "#fff",
                         padding: "10px",
                     }}

@@ -42,7 +42,7 @@ const ProblemStatements = () => {
     return (
 
 
-        <Container id="problem-statements" style={{ background: "#0e2a47" }}>
+        <Container id="problem-statements" style={{ background: "#0c233b" }}>
             <HeadingH1 style={{ paddingTop: "0px" }}>Tracks</HeadingH1>
             <section style={{ width: "80%" }}>
                 <ThemeProvider theme={theme}>

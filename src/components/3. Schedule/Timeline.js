@@ -13,6 +13,8 @@ import Typography from '@material-ui/core/Typography';
 const useStyles = makeStyles((theme) => ({
     paper: {
         padding: '6px 16px',
+        backgroundColor : "#0e2a47",
+        borderRadius: "10px",
     },
     secondaryTail: {
         backgroundColor: theme.palette.secondary.main,
@@ -39,7 +41,7 @@ export default function CustomizedTimeline() {
                 <TimelineItem>
                     <TimelineOppositeContent>
                         <Typography variant="body2" color="textSecondary">
-                            01 April 2021
+                            11 Janary 2022
                         </Typography>
                     </TimelineOppositeContent>
                     <TimelineSeparator>
@@ -51,14 +53,14 @@ export default function CustomizedTimeline() {
                             <Typography variant="h6" component="h1">
                                 Registrations Start
                             </Typography>
-                            <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Typography>
+                            <Typography>Registration Begin!!!</Typography>
                         </Paper>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
                     <TimelineOppositeContent>
                         <Typography variant="body2" color="textSecondary">
-                            15 April 2021
+                            19 January 2022
                         </Typography>
                     </TimelineOppositeContent>
                     <TimelineSeparator>
@@ -70,11 +72,16 @@ export default function CustomizedTimeline() {
                             <Typography variant="h6" component="h1">
                                 Registration Ends
                             </Typography>
-                            <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Typography>
+                            <Typography>Please Hurry!!!</Typography>
                         </Paper>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
+                    <TimelineOppositeContent>
+                        <Typography variant="body2" color="textSecondary">
+                            20 January 2022
+                        </Typography>
+                    </TimelineOppositeContent>
                     <TimelineSeparator>
                         <TimelineDot />
                         <TimelineConnector />
@@ -82,13 +89,18 @@ export default function CustomizedTimeline() {
                     <TimelineContent>
                         <Paper elevation={3} className={classes.paper}>
                             <Typography variant="h6" component="h1">
-                                Team Confirmation Rollout & RSVP Start
+                                Hackathon Starts
                             </Typography>
-                            <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Typography>
+                            <Typography>Prepare to Hack!</Typography>
                         </Paper>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
+                    <TimelineOppositeContent>
+                        <Typography variant="body2" color="textSecondary">
+                            31 January 2022
+                        </Typography>
+                    </TimelineOppositeContent>
                     <TimelineSeparator>
                         <TimelineDot />
                         <TimelineConnector />
@@ -96,22 +108,27 @@ export default function CustomizedTimeline() {
                     <TimelineContent>
                         <Paper elevation={3} className={classes.paper}>
                             <Typography variant="h6" component="h1">
-                                RVSP End
+                                Hackathon Ends!
                             </Typography>
-                            <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Typography>
+                            <Typography>Finally the war is over!</Typography>
                         </Paper>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
+                <TimelineOppositeContent>
+                        <Typography variant="body2" color="textSecondary">
+                            1 February 2022
+                        </Typography>
+                    </TimelineOppositeContent>
                     <TimelineSeparator>
                         <TimelineDot />
                     </TimelineSeparator>
                     <TimelineContent>
                         <Paper elevation={3} className={classes.paper}>
                             <Typography variant="h6" component="h1">
-                                Check In & Hackathon Starts
+                                Hackathon Results!
                             </Typography>
-                            <Typography>Lorem ipsum dolor sit amet, consectetur adipiscing elit</Typography>
+                            <Typography>Yay!!! Find out the winners!!!</Typography>
                         </Paper>
                     </TimelineContent>
                 </TimelineItem>

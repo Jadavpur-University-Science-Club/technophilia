@@ -99,6 +99,7 @@ export const SocialLogo = styled(Link)`
 
 export const WebsiteRights = styled.small`
     color: #fff;
+    font-size:15px;
     margin-bottom: 40px;
 `
 

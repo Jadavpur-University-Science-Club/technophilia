@@ -14,19 +14,19 @@ const Footer = () => {
                         <SocialMediaWrap>
                             <SocialLogo to="/" onClick={scroll.scrollToTop}><Logo size={40}/>&nbsp;&nbsp; <span style={{color:"white"}}> Techno</span><span style={{color: "#0692ce"}}>philia</span></SocialLogo>
                            
-                            <WebsiteRights>#Dare_to_Dream.</WebsiteRights>
-
+                            <WebsiteRights style={{marginBottom:"10px"}}>#Dare_to_Dream.</WebsiteRights>
+                            <WebsiteRights>Mail : official.jusc@gmail.com</WebsiteRights>
                             <SocialIcons>
-                                <SocialIconLink href="/" target="_blank" aria-label="Facebook">
+                                <SocialIconLink href="https://www.facebook.com/juscofficial" target="_blank" aria-label="Facebook">
                                     <FaFacebook />
                                 </SocialIconLink>
-                                <SocialIconLink href="/" target="_blank" aria-label="Instagram">
+                                <SocialIconLink href="https://www.instagram.com/jusc_official/" target="_blank" aria-label="Instagram">
                                     <FaInstagram />
                                 </SocialIconLink>
-                                <SocialIconLink href="/" target="_blank" aria-label="Twitter">
+                                <SocialIconLink href="https://twitter.com/juscofficial" target="_blank" aria-label="Twitter">
                                     <FaTwitter />
                                 </SocialIconLink>
-                                <SocialIconLink href="/" target="_blank" aria-label="LinkedIn">
+                                <SocialIconLink href="https://www.linkedin.com/school/jadavpur-university-science-club/" target="_blank" aria-label="LinkedIn">
                                     <FaLinkedin />
                                 </SocialIconLink>
                             </SocialIcons>
