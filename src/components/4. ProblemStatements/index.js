@@ -68,7 +68,7 @@ const ProblemStatements = () => {
                                         </Typography> */}
                                 </CardContent>
                                 <CardActions>
-                                    <a href="https://docs.google.com/document/d/1VQCPZFCpqJi4EgEya-KsA_lpZfLbU5bo6jJk17k68yM/edit">
+                                    <a href="https://docs.google.com/document/d/1VQCPZFCpqJi4EgEya-KsA_lpZfLbU5bo6jJk17k68yM/edit" target='_blank' rel="noreferrer">
                                         <Button size="small">Learn More</Button>
                                     </a>
                                 </CardActions>
@@ -93,7 +93,7 @@ const ProblemStatements = () => {
                                         </Typography> */}
                                 </CardContent>
                                 <CardActions>
-                                    <a href="https://docs.google.com/document/d/1VQCPZFCpqJi4EgEya-KsA_lpZfLbU5bo6jJk17k68yM/edit">
+                                    <a href="https://docs.google.com/document/d/1VQCPZFCpqJi4EgEya-KsA_lpZfLbU5bo6jJk17k68yM/edit" target='_blank' rel="noreferrer">
                                         <Button size="small">Learn More</Button>
                                     </a>
                                 </CardActions>
@@ -119,7 +119,7 @@ const ProblemStatements = () => {
                                         </Typography> */}
                                 </CardContent>
                                 <CardActions>
-                                    <a href="https://docs.google.com/document/d/1VQCPZFCpqJi4EgEya-KsA_lpZfLbU5bo6jJk17k68yM/edit">
+                                    <a href="https://docs.google.com/document/d/1VQCPZFCpqJi4EgEya-KsA_lpZfLbU5bo6jJk17k68yM/edit" target='_blank' rel="noreferrer">
                                         <Button size="small">Learn More</Button>
                                     </a>
                                 </CardActions>
@@ -156,7 +156,7 @@ const ProblemStatements = () => {
                                         </Typography> */}
                                 </CardContent>
                                 <CardActions>
-                                    <a href="https://docs.google.com/document/d/1VQCPZFCpqJi4EgEya-KsA_lpZfLbU5bo6jJk17k68yM/edit">
+                                    <a href="https://docs.google.com/document/d/1VQCPZFCpqJi4EgEya-KsA_lpZfLbU5bo6jJk17k68yM/edit" target='_blank' rel="noreferrer">
                                         <Button size="small">Learn More</Button>
                                     </a>
                                 </CardActions>
@@ -181,7 +181,7 @@ const ProblemStatements = () => {
                                         </Typography> */}
                                 </CardContent>
                                 <CardActions>
-                                    <a href="https://docs.google.com/document/d/1VQCPZFCpqJi4EgEya-KsA_lpZfLbU5bo6jJk17k68yM/edit">
+                                    <a href="https://docs.google.com/document/d/1VQCPZFCpqJi4EgEya-KsA_lpZfLbU5bo6jJk17k68yM/edit" target='_blank' rel="noreferrer">
                                         <Button size="small">Learn More</Button>
                                     </a>
                                 </CardActions>
@@ -206,7 +206,7 @@ const ProblemStatements = () => {
                                         </Typography> */}
                                 </CardContent>
                                 <CardActions>
-                                    <a href="https://docs.google.com/document/d/1VQCPZFCpqJi4EgEya-KsA_lpZfLbU5bo6jJk17k68yM/edit">
+                                    <a href="https://docs.google.com/document/d/1VQCPZFCpqJi4EgEya-KsA_lpZfLbU5bo6jJk17k68yM/edit" target='_blank' rel="noreferrer">
                                         <Button size="small">Learn More</Button>
                                     </a>
                                 </CardActions>

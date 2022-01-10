@@ -36,3 +36,8 @@ export const HeadingH1 = styled.h1`
         font-size: 2rem;
     }
 `
+export const img = styled.img`
+    @media screen and (max-width: 480px) {
+        width: 40px;
+    }
+`
