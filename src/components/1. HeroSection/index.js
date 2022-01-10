@@ -25,14 +25,14 @@ const HeroSection = () => {
                     <HeroH1>
                         <span>&nbsp;&nbsp;</span> <span style={{ color: "white" }}>Techno</span><span style={{ color: "#0692ce" }}>philia</span>
                     </HeroH1>
-                    <HeroP>#Dare_to_Dream</HeroP>
+                    <HeroP>#Dare_to_Dream <br/></HeroP>
                     
                     <div
                         id="devfolio-apply-now"
                         className="apply-button"
                         data-hackathon-slug="doubleslash-ieee-jaduniv"
                         data-button-theme="light"
-                        style={{ height: "44px", width: "300px", paddingBottom:"10px" }} >
+                        style={{ height: "44px", width: "270px"}} >
 
                     </div>
                     <br />
