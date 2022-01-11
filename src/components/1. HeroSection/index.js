@@ -23,7 +23,7 @@ const HeroSection = () => {
                         <Logo size={150} />
                     </HeroH1>
                     <HeroH1>
-                        <span>&nbsp;&nbsp;</span> <span style={{ color: "white" }}>Techno</span><span style={{ color: "#0692ce" }}>philia</span>
+                        <span>&nbsp;&nbsp;</span> <span style={{ color: "white" }}>Techno</span><span style={{ color: "#0692ce" }}>philia'22</span>
                     </HeroH1>
                     <HeroP>#Dare_to_Dream <br/></HeroP>
                     
@@ -31,7 +31,7 @@ const HeroSection = () => {
                         id="devfolio-apply-now"
                         className="apply-button"
                         data-hackathon-slug="doubleslash-ieee-jaduniv"
-                        data-button-theme="light"
+                        data-button-theme="dark-inverted"
                         style={{ height: "44px", width: "270px"}} >
 
                     </div>

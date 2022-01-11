@@ -12,7 +12,7 @@ const Footer = () => {
                 <FooterWrap>
                     <SocialMedia>
                         <SocialMediaWrap>
-                            <SocialLogo to="/" onClick={scroll.scrollToTop}><Logo size={40}/>&nbsp;&nbsp; <span style={{color:"white"}}> Techno</span><span style={{color: "#0692ce"}}>philia</span></SocialLogo>
+                            <SocialLogo to="/" onClick={scroll.scrollToTop}><Logo size={40}/>&nbsp;&nbsp; <span style={{color:"white"}}> Techno</span><span style={{color: "#0692ce"}}>philia'22</span></SocialLogo>
                            
                             <WebsiteRights style={{marginBottom:"10px"}}>#Dare_to_Dream.</WebsiteRights>
                             <WebsiteRights>Mail : official.jusc@gmail.com</WebsiteRights>

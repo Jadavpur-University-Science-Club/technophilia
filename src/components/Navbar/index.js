@@ -32,7 +32,7 @@ const Navbar = ({ toggle }) => {
             <Nav scrollNav={scrollNav}>
                 <NavbarContainer>
                     <NavLogo to="/" onClick={toggleHome}>
-                        <Logo size={"60"} /><span>&nbsp;&nbsp;</span> <span style={{color:"white"}}>Techno</span>philia
+                        <Logo size={"60"} /><span>&nbsp;&nbsp;</span> <span style={{color:"white"}}>Techno</span>philia'22
                     </NavLogo>
                     <MobileIcon onClick={toggle}>
                         <FaBars />
