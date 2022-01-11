@@ -54,11 +54,11 @@ const Sponsors = () => {
                 <section id="Tier2" style={{ width: "80%", paddingTop: "5%", height: "30%" }}>
 
                     <div style={{ padding: "5%" }}>
-                        <Row lg={12} style={{ justifyContent: "center", color: "white", fontSize: "2rem" }}>
+                        <Row lg={4} style={{ justifyContent: "center", color: "white", fontSize: "2rem" }}>
                             <HeadingH2>TIER 2</HeadingH2>
                         </Row>
                         <Row className="justify-content-md-center" style={{paddingLeft : "35px"}}>
-                            <Col lg={6} md={12} sm={12} style={{ paddingLeft: "5%", paddingBottom: "12%" }}>
+                            <Col lg={4} md={12} sm={12} style={{ paddingLeft: "5%", paddingBottom: "12%" }}>
                                 <a href="https://tezos.com/" target='_blank' rel="noreferrer" >
                                     <img className="logo-large" src={require("../../images/sponsors/tezos.png").default} alt=" " width="80%" left="20%" />
 
@@ -66,9 +66,16 @@ const Sponsors = () => {
 
                             </Col>
 
-                            <Col  style={{ paddingLeft: "5%", paddingBottom: "10%" }}>
+                            <Col  lg={4} md={12} sm={12} style={{ paddingLeft: "5%", paddingBottom: "10%" }}>
                                 <a href="https://filecoin.io/" target='_blank' rel="noreferrer" >
                                     <img className="logo-large" src={require("../../images/sponsors/filecoin1.png").default} alt=" " width="80%" left="20%" />
+
+                                </a>
+                            </Col>
+
+                            <Col  style={{ paddingLeft: "5%", paddingBottom: "10%" }}>
+                                <a href="https://celo.org/" target='_blank' rel="noreferrer" >
+                                    <img className="logo-large" src={require("../../images/sponsors/celo.png").default} alt=" " width="80%" left="20%" />
 
                                 </a>
                             </Col>
