@@ -26,7 +26,7 @@ const HeroSection = () => {
                         <span>&nbsp;&nbsp;</span> <span style={{ color: "white" }}>Techno</span><span style={{ color: "#0692ce" }}>philia'22</span>
                     </HeroH1>
                     <HeroP>#Dare_to_Dream <br/></HeroP>
-                    
+                    <span> <br/></span>
                     <div
                         id="devfolio-apply-now"
                         className="apply-button"
