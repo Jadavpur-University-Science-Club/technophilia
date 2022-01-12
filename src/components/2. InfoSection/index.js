@@ -1,6 +1,7 @@
 import React from "react";
 import { InfoContainer, InfoWrapper, InfoRow, Column1, Column2, TextWrapper, TopLine, Heading, Subtitle, BtnWrap, ImgWrap, Img } from "./infoElements";
 import { Button } from "../ButtonElements";
+import {animateScroll as scroll} from "react-scroll";
 
 const InfoSection = ({ id,
     lightBg,
@@ -37,6 +38,7 @@ const InfoSection = ({ id,
                                         offset={-80}
                                         primary={primary ? 0 : 1}
                                         dark={dark ? 0 : 1}
+                                        onClick={scroll.scrollToTop}
                                     >{buttonLabel}</Button>
                                 </BtnWrap>
                             </TextWrapper>
