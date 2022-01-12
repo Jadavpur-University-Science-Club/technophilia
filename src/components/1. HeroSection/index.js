@@ -37,9 +37,11 @@ const HeroSection = () => {
                     </div>
 
                     <br />
+                    
                     <HeroBtnWrapper>
                         <Button
-                            to="signup"
+                            to={{ pathname: "https://discord.gg/fqehMwrmgt" }} 
+                            target={'_blank'}
                             onMouseEnter={onHover}
                             onMouseLeave={onHover}
                             primary="true"
@@ -47,6 +49,7 @@ const HeroSection = () => {
                             style={{ backgroundColor: hover ? "#0692ce" : "white" }}
                         >Join Our Discord <img src={require("../../images/discord.png").default} width="32px" height="32px" alt="discord_new" style={{ paddingLeft: "3px" }} /> {hover ? <ArrowForward /> : <ArrowRight />}</Button>
                     </HeroBtnWrapper>
+                    
                 </HeroContent>
             </HeroContainer>
 
