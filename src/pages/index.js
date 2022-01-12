@@ -14,6 +14,7 @@ import { homeObjOne } from '../components/2. InfoSection/Data';
 import Sponsors from '../components/6. Sponsors';
 import Judges from '../components/7. Judges';
 import FAQs from '../components/8. FAQs';
+import { useEffect } from "react";
 // import Team from '../components/9. Team';
 
 const Home = () => {
@@ -24,7 +25,19 @@ const Home = () => {
         setIsOpen(!isOpen);
     }
 
+    useEffect(() => {
+        const script = document.createElement("script");
+        script.src = "https://apply.devfolio.co/v2/sdk.js";
+        script.async = true;
+        script.defer = true;
+        document.body.appendChild(script);
+        return () => {
+          document.body.removeChild(script);
+        };
+      }); 
+
     return (
+        
         <>
             <Sidebar isOpen={isOpen} toggle={toggle} />
             <Navbar toggle={toggle} />
