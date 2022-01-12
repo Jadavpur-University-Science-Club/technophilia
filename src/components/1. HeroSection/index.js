@@ -32,7 +32,7 @@ const HeroSection = () => {
                         className="apply-button"
                         data-hackathon-slug="technophilia-jusc"
                         data-button-theme="dark-inverted"
-                        style={{ height: "44px", width: "270px", paddingTop:"10px"}} >
+                        style={{ height: "44px", width: "220px", paddingTop:"10px", borderRadius : "50px"}} >
 
                     </div>
 
