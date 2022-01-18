@@ -5,7 +5,7 @@ export const homeObjOne = {
     lightTextDesc: true,
     topLine: "About",
     headline: "",
-    description: "Technophilia is a 12 days-long hackathon where teams (maximum of 4 and minimum of 2) can register for free. Problem statements on various topics will be given at the time of registration.The teams are allowed to work on any one of those given problems or a problem of their own choice. Participants have to apply their problem-solving skills and come up with a working solution which can be in the form of a software, simulation or a prototype. On Day 3, an abstract approach is to be submitted in not more than 2 pages in doc format.Teams clearing the 1st round would continue building their solution and will be pitching for the solution during the final round, which concludes on Day 12.",
+    description: "Technophilia is a 12 days-long hackathon where teams (maximum of 4 and minimum of 2) can register for free. Problem statements on various topics will be given at the time of registration.The teams are allowed to work on any one of those given problems or a problem of their own choice. Participants have to apply their problem-solving skills and come up with a working solution which can be in the form of a software, simulation or a prototype. On Day 3, an abstract approach is to be submitted in doc format.Teams clearing the 1st round would continue building their solution and will be pitching for the solution during the final round, which concludes on Day 12.",
     buttonLabel: "Get Started",
     imgStart: true,
     img: require("../../images/about3.svg").default,
