@@ -89,16 +89,76 @@ export default function CustomizedTimeline() {
                     <TimelineContent>
                         <Paper elevation={3} className={classes.paper}>
                             <Typography variant="h6" component="h1">
-                                Hackathon Starts
+                                Hackathon Starts [Ideation]
                             </Typography>
-                            <Typography>Prepare to Hack!</Typography>
+                            <Typography>Starting of Ideation phase</Typography>
                         </Paper>
                     </TimelineContent>
                 </TimelineItem>
                 <TimelineItem>
                     <TimelineOppositeContent>
                         <Typography variant="body2" color="textSecondary">
-                            31 January 2022
+                            23 January 2022
+                        </Typography>
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                        <TimelineDot />
+                        <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent>
+                        <Paper elevation={3} className={classes.paper}>
+                            <Typography variant="h6" component="h1">
+                               End of Ideation Phase
+                            </Typography>
+                            <Typography>All docs need to be submitted!</Typography>
+                        </Paper>
+                    </TimelineContent>
+                </TimelineItem>
+
+                <TimelineItem>
+                    <TimelineOppositeContent>
+                        <Typography variant="body2" color="textSecondary">
+                            24 January 2022
+                        </Typography>
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                        <TimelineDot />
+                        <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent>
+                        <Paper elevation={3} className={classes.paper}>
+                            <Typography variant="h6" component="h1">
+                               Declearing of ideation phase  shortlists
+                            </Typography>
+                            <Typography>Shortlists of the ideation phase will be announced</Typography>
+                        </Paper>
+                    </TimelineContent>
+                </TimelineItem>
+
+                <TimelineItem>
+                    <TimelineOppositeContent>
+                        <Typography variant="body2" color="textSecondary">
+                            24 January 2022, 12 PM IST
+                        </Typography>
+                    </TimelineOppositeContent>
+                    <TimelineSeparator>
+                        <TimelineDot />
+                        <TimelineConnector />
+                    </TimelineSeparator>
+                    <TimelineContent>
+                        <Paper elevation={3} className={classes.paper}>
+                            <Typography variant="h6" component="h1">
+                               Coding Pediod Starts
+                            </Typography>
+                            <Typography>Shortlisted teams will start building their projects</Typography>
+                        </Paper>
+                    </TimelineContent>
+                </TimelineItem>
+
+                <TimelineItem>
+                    <TimelineOppositeContent>
+                        <Typography variant="body2" color="textSecondary">
+                            31 January 2022, 12 PM IST
                         </Typography>
                     </TimelineOppositeContent>
                     <TimelineSeparator>
